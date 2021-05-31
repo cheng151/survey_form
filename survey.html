@@ -1,0 +1,86 @@
+<html>
+
+<style>
+
+  #title {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  #box-container {
+    height: 100%;
+    width: auto;
+    background-color: rgb(160, 82, 45);
+    margin: center;
+  }
+
+  #survey-form {
+    padding-bottom: 25px;
+  }
+
+  #name {
+    padding: 10px 25px 10px 25px;
+
+  }
+
+  #email {
+    padding: 10px 25px 10px 25px;
+  }
+
+  #number {
+    padding: 10px 25px 10px 25px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  </style>
+
+<h1 id="title">Gaming Survey Form</h1>
+  <body>
+    <p id="description">Survey on gaming habits</p>
+    <div id="box-container">
+      <form id="survey-form">
+        <div>
+          <p>
+        <label for="name">Name: </label>
+          <input type="text" id="name" placeholder="Name">
+          </p>
+        </div>
+          <p>
+        <div>
+          <label for="name">Email: </label>
+            <input type="text"  id="email" placeholder="Email" pattern=".@gmail.com" size="30" required>
+          </p>
+        </div>
+          <p>
+        <div>
+          <label for="number">Number: </label>
+            <input type="number"  id="number" placeholder="Number">
+          </p>
+        </div>
+        <div>
+          <p>What type of gaming system do you use?</p>
+        </div>
+        <div>
+          <p>
+          <label for="pc">PC</label>
+            <input type="radio">
+          <label for="console">Console Peasant</lable>
+            <input type="radio">
+          <label for="handheld">Handheld</label>
+            <input type="radio">
+          <label for="mobile">Mobile</lable>
+            <input type="radio">
+          </p>
+        </div>
+        <div>
+          <p>
+            <input type="submit" value="Submit Survey">
+    </body>
+
+</html>
